@@ -1,6 +1,7 @@
 #social-buttons button {
 
 	color: white;
+	margin-bottom: 30px;
 
 }
 .btn-twitter {
@@ -16,7 +17,10 @@
 	background-color: #4868ac;
 
 	border-color: #314776;
+}
 
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
 }
 
 .btn-pinterest {
@@ -28,12 +32,36 @@
 }
 
 .jumbotron {
-	min-height: 600px;
+	
+  padding-top: 150px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('images/fruit-and-veg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-	background-image: url('images/fruit-and-veg.jpg');
+.jumbotron h1 {
+	  font-family: 'Vast Shadow', cursive;
+  color: white;
+  margin-bottom: 1em;
+}
+.jumbotron img {
+	margin-top: 50px;
+}
+.jumbotron label {
+	color: white;
+}
 
-	background-size: cover;
+.form-inline input[name='email'] {
+  width: 80%;
+}
 
-	background-attachment: fixed;
+.jumbotron .form-group {
+  line-height: 1em;
+}
 
+#mission { 
+	background-color: rgba(32, 35, 41, 0.9);
+	color: #ddd;
 }
